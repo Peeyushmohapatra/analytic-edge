@@ -1,0 +1,80 @@
+.searchBar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    box-shadow: 0 2px 4px rgba(0,0,0,.4), 0 7px 13px -3px rgba(0,0,0,.3), inset 0 -3px 0 rgba(0,0,0,.2);
+}
+
+.searchBar input{
+    height: 80%;
+    width: 20%;
+    border: none;
+    border-bottom: 2px solid rgb(33,150,243);
+    border-radius: 7px;
+    padding-left: 10px;
+    background-color: transparent;
+    color: white;
+}
+.searchBar button{
+    height: 80%;
+    width: 10%;
+    border: none;
+    border-bottom: 2px solid rgb(33,150,243);
+    border-radius: 7px;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+}
+
+@media screen and (width<=759px) {
+    .searchBar input{
+        height: 80%;
+        width: 40%;
+        border: none;
+        border-bottom: 2px solid rgb(33,150,243);
+        border-radius: 7px;
+        padding-left: 10px;
+        background-color: transparent;
+        color: white;
+    }
+    
+    .searchBar button{
+        height: 80%;
+        width: 20%;
+        border: none;
+        border-bottom: 2px solid rgb(33,150,243);
+        border-radius: 7px;
+        background-color: transparent;
+        cursor: pointer;
+        color: white;
+    }
+    
+}
+    
+    @media screen and (width<=470px) {
+        .searchBar input{
+            height: 80%;
+            width: 50%;
+            border: none;
+            border-bottom: 2px solid rgb(33,150,243);
+            border-radius: 7px;
+            padding-left: 10px;
+            background-color: transparent;
+            color: white;
+        }
+    
+        .searchBar button{
+            height: 80%;
+            width: 30%;
+            border: none;
+            border-bottom: 2px solid rgb(33,150,243);
+            border-radius: 7px;
+            background-color: transparent;
+            cursor: pointer;
+            color: white;
+        }
+        
+    }

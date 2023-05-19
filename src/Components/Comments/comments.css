@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;600&display=swap');
+
+.comments {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://images.pexels.com/photos/1304645/pexels-photo-1304645.jpeg?cs=srgb&dl=pexels-sebastiaan-stam-1304645.jpg&fm=jpg);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.commentContainer {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid blue;
+  gap: 20px;
+  background-color: rgba(25, 25, 25, 0.721);
+}
+
+.userCommentContainer {
+  width: 80%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4), 0 7px 13px -3px rgba(0, 0, 0, 0.3),
+    inset 0 -3px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;;
+}
+
+.commentHeading {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.useName {
+  margin: auto;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.useName {
+  border-radius: 7px;
+  border-bottom: 2px solid rgb(33, 150, 243);
+  font-size: 1rem;
+}
+
+.userId {
+  border-radius: 20px;
+  border: 2px solid rgb(33, 150, 243);
+  display: flex;
+  padding: 10px;
+  justify-content: flex-start;
+}
+
+.userEmail {
+  margin: auto;
+  width: 50%;
+
+  border-radius: 10px;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid rgb(33, 150, 243);
+  font-size: 1.1rem;
+}
+
+.userEmail p {
+  border-radius: 7px;
+}
+.userComment {
+  border-radius: 10px;
+  border-bottom: 2px solid rgb(33, 150, 243);
+  padding: 10px 15px;
+  font-size: 1.1rem;
+}
+
+.backButton {
+  height: 40px;
+  width: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid rgb(33, 150, 243);
+  color: white;
+  transition: 1s;
+}
+
+.backButton:hover {
+  transform: scale(1.5);
+  border-bottom: 2px solid red;
+}
+
+
+@media screen and (width<=500px) {
+   
+    .commentHeading{
+        font-size: 1rem;
+    }
+
+    .userEmail{
+        width: 90%;
+    }
+
+    .userEmail p {
+        font-size: 0.6rem;
+      }
+
+      .userComment{
+        padding: 10px 15px;
+        font-size: 0.7rem;
+      }
+}

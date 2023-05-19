@@ -1,0 +1,39 @@
+.errorContainer {
+  height: 87.3vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.searchHeading {
+  text-align: center;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+@media screen and (width<=500px) {
+   
+    .searchHeading{
+        font-size: 1rem;
+    }
+    
+    .errorHeading{
+        font-size: 1.2rem;
+
+    }
+}
