@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+
 .errorContainer {
   height: 87.3vh;
   width: 100%;
@@ -22,6 +24,7 @@
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 
