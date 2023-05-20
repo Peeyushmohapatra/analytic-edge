@@ -21,12 +21,11 @@ const Search = () => {
     });
 
     useEffect(() => {
-        filterFunction(searchData,allUsers,setData);
+        filterFunction(searchData,allUsers,setData); //call filterFunction() for filter the user data based on user.title.
     },[searchData]);
 
   return (
     <div> 
-        
         {data.length > 0 ?<><h1 className='searchHeading'>Result for "{searchData}"</h1><Display state={data}/></>  : <div className='errorContainer'><h1 className='errorHeading'>Data not found for "{searchData}"</h1></div>}
     </div>
   )

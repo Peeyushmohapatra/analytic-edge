@@ -5,12 +5,14 @@ import { commentFun } from '../../Functions/function'
 import Userdetails from '../UserDetails/Userdetails'
 
 const Comment = () => {
-    const {id} = useParams()
-    const [comment,setComment] = useState([])
+    const {id} = useParams(); // accessing data passed as parameter
+    const [comment,setComment] = useState([]);
+
     useEffect(() => {
-        commentFun(id,setComment)
+        commentFun(id,setComment) // Call commentFun() with id and setComment to get the comment of a particular post.
     },[])
-    const navigate = useNavigate()
+
+    const navigate = useNavigate();
   return (
     <div className='comments'>
         <div className="commentContainer">

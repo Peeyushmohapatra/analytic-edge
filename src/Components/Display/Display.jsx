@@ -6,7 +6,7 @@ import { useDispatch } from 'react-redux'
 
 
 const Display = ({state}) => {
-    const dispatch = useDispatch()
+    const dispatch = useDispatch(); // disPatch() helps to pass action object to reducer function.
   return (
     <div className='display'>
         <div className="tableHeading">

@@ -1,5 +1,5 @@
 .button {
-  height: 80%;
+  height: 80%;;
   width: 5%;
   background-color: transparent;
   border: none;
@@ -12,3 +12,5 @@
 .button:hover {
   border-bottom: 2px solid red;
 }
+
+
