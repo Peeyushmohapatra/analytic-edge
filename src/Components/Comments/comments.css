@@ -136,5 +136,6 @@
 
       .userCommentContainer{
         width: 100%;
+        padding: 5px;
       }
 }

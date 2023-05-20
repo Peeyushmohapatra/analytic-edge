@@ -149,7 +149,6 @@
     .discription{
         height: 100%;
         width: 55%;
-        border: 2px solid pink;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -220,7 +219,6 @@
     .discription{
         height: 100%;
         width: 50%;
-        border: 2px solid pink;
         display: flex;
         justify-content: center;
         align-items: center;
