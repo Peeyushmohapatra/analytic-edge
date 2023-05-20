@@ -20,7 +20,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid blue;
   gap: 20px;
   background-color: rgba(25, 25, 25, 0.721);
 }
@@ -133,5 +132,9 @@
       .userComment{
         padding: 10px 15px;
         font-size: 0.7rem;
+      }
+
+      .userCommentContainer{
+        width: 95%;
       }
 }

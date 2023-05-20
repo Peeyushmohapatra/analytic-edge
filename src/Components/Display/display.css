@@ -42,7 +42,7 @@
 .discription{
     height: 100%;
     width: 60%;
-    border: 2px solid pink;
+    border: 2px solid gray;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -252,5 +252,9 @@
     border-radius: 7px;
     font-size: .6rem;
 }
+
+ .display{
+    padding: 0.5rem;
+ }
 
 }
